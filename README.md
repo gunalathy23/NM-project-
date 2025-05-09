@@ -1,22 +1,16 @@
-# 🎙️ Live Speech-to-Text Transcription App
+# Real-time Speech-to-Text with Wav2Vec2
 
-This project is an end-to-end speech recognition system with a simple user interface (UI) built using Streamlit. It records audio from your microphone, transcribes it using a pre-trained Wav2Vec2 model, and displays the transcribed text in real time.
+This is a real-time speech-to-text application built using **Streamlit** and **Wav2Vec2** for transcribing audio from your microphone.
 
-## 🚀 Features
+## Features
 
-- 🎧 Live microphone recording (1–10 seconds)
-- 🤖 Transcription using Wav2Vec2 (Facebook/wav2vec2-large-960h)
-- 🖥️ Streamlit UI for user-friendly interaction
+- **Real-time audio recording** directly from the microphone using **Streamlit WebRTC**.
+- **Speech-to-text transcription** powered by **Wav2Vec2** from the HuggingFace Transformers library.
+- The application converts audio input to text using a pre-trained model (`facebook/wav2vec2-base-960h`).
 
-## 🛠️ Requirements
+## Installation
 
-- Python 3.8 or higher
-- Internet connection (to download the pre-trained model)
-
-## 📦 Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/speech-to-text-ui.git
-cd speech-to-text-ui
+1. Clone this repository:
+   ```bash
+   git clone <repo_url>
+   cd <repo_folder>
